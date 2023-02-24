@@ -8,6 +8,7 @@ body{
     height: 70px;
     background-color: #ffffff;
     color: rgb(0, 0, 0);
+    box-shadow: 0 5 10px #000000;
 }
 
 .logo{
@@ -74,6 +75,8 @@ header {
     justify-content: center;
     align-items: center;
     background-image: url("back.jpg");
+    width: 100vw;
+    height: 84.9vh;
 }
 
 .header-info {
@@ -88,7 +91,7 @@ header {
     margin-top: 2rem;
     margin-left: auto;
     margin-right: auto;
-    background-color: #f34f4f;
+    background-color: #3e73e1;
     color: white;
     padding: 0.5rem 1rem;
     text-decoration: none;
@@ -102,27 +105,59 @@ header {
 
 .containar h1 {
     font-size:  2rem;
+    text-align: left;
 }
 
+.teamsback1 {
+    display: flex;
+}
 
-.teams{
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
+.teams-items1{
+    margin-left: 10px;
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+    backdrop-filter: blur(-30px);
+    background-color: rgba(133, 134, 189, 0.4);
+    border-radius: 0.25rem;
+}
+
+.teams-items1{
+    padding: 2rem;
+    color: #fff;
+    text-align: center;
+    backdrop-filter: blur(-30px);
+    background-color: rgba(133, 134, 189, 0.4);
+    border-radius: 0.25rem;
+}
+
+.teams-items1 img {
+    width: 100px;
+    height: 100px;
+    border-radius: 10%;
+}
+
+.teams-items1 a {
+    text-decoration: none;
+    color: #f8f6f6;
+    background: #f34f4f;
+    padding: 0.5rem;
+    border-radius: 0.25rem;
 }
 
 .teams-items{
-    border: 1px solid #000;
     padding: 2rem;
-    background: #339CFF;
     color: #fff;
     text-align: center;
+    backdrop-filter: blur(-30px);
+    background-color: rgba(133, 134, 189, 0.4);
+    border-radius: 0.25rem;
 }
 
 .teams-items img {
     width: 100px;
     height: 100px;
     border-radius: 10%;
-    box-shadow: 0 0 10px #000000;
 }
 
 .teams-items a {
@@ -130,7 +165,7 @@ header {
     color: #f8f6f6;
     background: #f34f4f;
     padding: 0.5rem;
-
+    border-radius: 0.25rem;
 }
 
 footer {

@@ -28,8 +28,7 @@ body{
 
 .img{
 	display: flex;
-	justify-content: flex-end;
-	align-items: center;
+	margin-left: 250px;
 }
 
 .login-content{

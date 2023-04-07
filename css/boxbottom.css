@@ -1,0 +1,29 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+.clssbox {
+    margin: flex;
+    margin-left: 15px;
+    margin-right: 15px;
+    background: #cecece;
+    width: auto;
+    height: 37rem;
+    border-radius: 20px;
+}
+
+.boxmini {
+    margin: flex;
+    align-items: center;
+    text-align: left -10px;
+    margin-left: 15px;
+    height: 150px;
+}
+
+.boxtext {
+    align-items: center;
+    backdrop-filter: blur(-30px);
+    background-color: rgba(133, 134, 189, 0.4);
+}
